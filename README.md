@@ -1,4 +1,4 @@
-# Solution to MATLAB and Simulink Challenge project <'241'> <'Simulink Hearing Aid'>
+# Solution to MATLAB and Simulink Challenge project <241> <Simulink Hearing Aid>
 This is a template repo for MATLAB and Simulink Challenge Project solutions.
 
 Please add the following items:
