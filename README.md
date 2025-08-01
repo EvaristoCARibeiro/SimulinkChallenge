@@ -31,3 +31,5 @@ Add a video or animated gif/picture to showcase the code in operation.
 [6] J. V. C. Silva, “How solar panels are made,” YouTube, Jul. 30, 2025. [Online]. Available: https://www.youtube.com/watch?v=pBWKnPo6Q4k (accessed Jul. 30, 2025).
 
 [7] Green Energy Explained, “Solar energy basics,” YouTube, Jul. 30, 2025. [Online]. Available: https://www.youtube.com/watch?v=cpttz8Q7jww (accessed Jul. 30, 2025).
+
+[8] Global Water Intelligence (GWI), "Water Tariff Survey," [Online]. Available: https://www.globalwaterintel.com/documents/tariff-survey-2024 (accessed Aug. 1, 2025).
