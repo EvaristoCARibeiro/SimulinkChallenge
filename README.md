@@ -1,4 +1,4 @@
-# Solution to MATLAB and Simulink Challenge - Project 236: <Techno-Economic Assessment of Green Hydrogen Production>
+# Solution to MATLAB and Simulink Challenge - Project 236: Techno-Economic Assessment of Green Hydrogen Production
 This is a template repo for MATLAB and Simulink Challenge Project solutions.
 
 Please add the following items:
