@@ -41,13 +41,13 @@ waterRatioBangladesh = tapWaterBangladesh / bottledWaterBangladesh;
 
 meanWaterRatio = (waterRatioBrazil + waterRatioSwitzerland + waterRatioBangladesh) / 3;
 
-tapWaterTable = bottledWaterTable(:,2) .* meanWaterRatio; % cost in $ / 1000L or 1000kg or 1m^3 tap
+tapWaterArray = bottledWaterTable{:,2} * meanWaterRatio; % cost in $ / 1000L or 1000kg or 1m^3 tap
 
 for i = 1:height(averageIrradianceTable)
     Data(i).country=averageIrradianceTable{i,1};
     Data(i).irradiance=averageIrradianceTable{i,2};
     Data(i).electricity=electricityCostTable{i,2};
-    Data(i).water=tapWaterTable{i,1};
+    Data(i).water=tapWaterArray(i);
 end
 
 %% Section 4: Running Model (Parallelized and Fixed)
@@ -73,7 +73,7 @@ parfor i = 1:n
     country = averageIrradianceTable{i,1};
     irradiance = averageIrradianceTable{i,2};
     electricity = electricityCostTable{i,2};
-    water = tapWaterTable{i,1};
+    water = tapWaterArray(i);
     % Step 1: Create irradiance time series
     time = (0:8759)';
     irradiancePerHour = irradiance / 24;
